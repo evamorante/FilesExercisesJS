@@ -1,0 +1,11 @@
+var apples = 11;
+var oranges = 7;
+var fruits = apples+oranges;
+console.log(fruits);
+var apples = apples-1;
+var fruits = apples+oranges;
+console.log(fruits);
+var oranges = oranges-1;
+var apples = apples-1;
+var fruits = apples+oranges;
+console.log(fruits);

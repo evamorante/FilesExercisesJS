@@ -13,6 +13,21 @@ console.log(myFavoriteDishes[0]);
 console.log(myFavoriteDishes[1]);
 console.log(myFavoriteDishes[2]);
 
-var myFavoriteDishes = ["Beefsteak", "PastaBolognaise", "FreshSalad"];
-favoriteDishesCount = myFavoriteDishes.length;
-console.log(favoriteDishesCount);
+console.log(myFavoriteDishes.length);
+
+myFavoriteDishes.push("Fondue");
+
+myFavoriteDishes.splice(1,1);
+console.log(myFavoriteDishes);
+
+myFavoriteDishes.sort();
+console.log(myFavoriteDishes);
+
+myFavoriteDishes.reverse();
+console.log(myFavoriteDishes);
+
+console.log(myFavoriteDishes);
+
+var message = "I have "+myFavoriteDishes.length.toString()+" favorite dishes.";
+console.log(message);
+
