@@ -2,6 +2,7 @@
 const title = document.getElementById("title");
 const myButton = document.getElementById("myButton");
 const notExisting = document.getElementById("notExisting");
+const myTextBox = document.getElementById("MyTextBox");
 
 console.log(title);
 console.log(myButton);
@@ -28,6 +29,17 @@ for (let i = 0; i<paragrafs.length; i++){
 
 //"updater" les valeurs des données dans html via JS
 //with elements between tags
-title.innerHTML = "The title has changed !";
+//title.innerHTML = "The title has changed !";
 //with elements without closing tags, means with anchor tags <input...>
-myButton.value = "Submit here!";
+//myButton.value = "Submit here!";
+
+//change the title clicking on the MyButton 
+//using the paragdim of events with the addEventListener method
+function changeTitle() {
+    //title.innerText = "New Title";
+    title.innerText = myTextBox.value;
+}
+
+myButton.addEventListener("click", changeTitle);
+
+//POURQUOI CELA NE FONCTIONNE PAS SI J'AI UPDATE LES DONNEES DANS LE TITRE ET DANS LE MYBUTTON
