@@ -2,7 +2,7 @@
 const title = document.getElementById("title");
 const myButton = document.getElementById("myButton");
 const notExisting = document.getElementById("notExisting");
-const myTextBox = document.getElementById("MyTextBox");
+const myTextBox = document.getElementById("myTextBox");
 
 console.log(title);
 console.log(myButton);
