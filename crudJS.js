@@ -1,4 +1,4 @@
-//sélectionner un élément de la page de construction web
+//sélectionner un élément de la page de construction web, par ID
 const title = document.getElementById("title");
 const myButton = document.getElementById("myButton");
 const notExisting = document.getElementById("notExisting");
@@ -9,7 +9,7 @@ console.log(myButton);
 console.log(notExisting);
 
 
-//sélectionner un ou des éléments sans ID
+//sélectionner un ou des éléments, par class
 //avec class - on obtient une collection, pour définir une liste de 
 //cette collection créer une loop avec itération et extraire à partir
 //de la position 0 - donc [i]
