@@ -8,6 +8,9 @@
 
 
 const p = document.getElementById ("1");
+//vraisemblablement on arrive pas à "updater" un paragraphe existant
+//vide ou pas, si on l'appelle avec un getElementsByTagName("p"), il
+//faut lui attribuer un ID ;)
 const textbox = document.getElementById ("textbox");
 const button = document.getElementById ("button");
 
