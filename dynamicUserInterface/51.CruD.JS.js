@@ -26,6 +26,7 @@ content.appendChild(newParagraph);
 function addParagraph() {
     const newParagraph = document.createElement("p");
     newParagraph.innerText = text.value;
+    newParagraph.className = "beautify";
     content.appendChild(newParagraph);
 }
 button.addEventListener("click", addParagraph);
