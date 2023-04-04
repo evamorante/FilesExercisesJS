@@ -14,12 +14,14 @@ sayCoucou("Lory");
 function sayHello(firstname,secondname){
     console.log("Hello "+firstname+secondname);
 }
-sayHello("Eva "+"Morante");
+sayHello("Eva "+"Morante ");
+
 
 //base fonction avec variable
 function salutations(firstname,secondname){
     var message = "Hello "+firstname+secondname+", how are you ?";
     return message;
 }
-salutations("Eva "+"Morante");
-console.log(salutations);
+console.log(salutations("Eva", " Morante"));
+
+

@@ -5,14 +5,28 @@ localStorage.setItem("username", "Eva");
 const name = localStorage.getItem("name");
 
 //to clear all datas
-localStorage.clear();
+//localStorage.clear();
 
 //to clear just one data
-localStorage.removeItem("username");
+//localStorage.removeItem("username");
 
 //to read a key doesn't exist
 const val = localStorage.getItem("password");
 console.log(val);
-//how to check if your value exists or not :
-//??
+// = null
+//how to check if your value exists or not : (defensif programming)
+//with a if condition - to be set on day...
+
+if (localStorage.length >0) {
+    const val = localStorage.getItem("username");
+console.log(val);
+}
+
+if (localStorage.getItem("password")){
+    console.log("ok");
+}
+else {
+    console.log("KO");
+}
+
 
