@@ -4,7 +4,7 @@ function sayHello(){
 }
 
 function greet(name){
-    console.log("Hello"+name);
+    console.log("Hello "+name);
 }
 
 function addTwoNumbers(a,b){

@@ -1,4 +1,4 @@
-// the notions of undifined and null VS number (int & float are numbers in JS)
+// the notions of undefined and null VS number (int & float are numbers in JS)
 var temperature;
 console.log(temperature)
 

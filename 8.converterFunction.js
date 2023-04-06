@@ -26,6 +26,6 @@ function convert(cm){
   var mess1 = " centimeters are ";
   var mess2 = " inches.";
   var resultt = cm*0.3937;
-  return cm.toString()+mess1+result.toString()+mess2;
+  return cm.toString()+mess1+resultt.toString()+mess2;
 }
 console.log(resultt);
