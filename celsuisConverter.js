@@ -9,3 +9,5 @@ var message = userInput+" degrees celsuis are "+farenheitResult+" degrees farenh
 console.log(message);
 
 
+//pas de float en JS - et pas de .toString dans ce cas-là, wonderful !
+
