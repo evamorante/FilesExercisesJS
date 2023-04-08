@@ -4,7 +4,7 @@ function tempConverter(celsuis){
 }
 
 var userInput = window.prompt("Enter your choiced degree celsuis to convert: ");
-var farenheitResult = tempConverter(float(userInput));
+var farenheitResult = tempConverter(userInput);
 var message = userInput+" degrees celsuis are "+farenheitResult+" degrees farenheit"
 console.log(message);
 
